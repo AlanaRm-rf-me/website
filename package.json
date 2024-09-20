@@ -34,7 +34,7 @@
     "axios": "^1.6.2",
     "date-fns": "^2.30.0",
     "discord-api-types": "^0.37.66",
-    "discord.js": "^14.14.1",
+    "discord.js": "^14.16.2",
     "kofi-button": "^1.1.1",
     "material-react-table": "^2.0.5",
     "next": "^14.0.4",
