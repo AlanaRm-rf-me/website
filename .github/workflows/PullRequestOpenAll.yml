@@ -15,18 +15,18 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js '20.5.0'
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20.5.0'
-        cache: 'npm'
-    - name: Update npm
-      run: npm install -g npm && npm --version
-    - name: Install packages
-      run: npm install --save-dev typescript @types/react @types/node
-    - name: Linting
-      run: npx next lint
+      - uses: actions/checkout@v3
+      - name: Use Node.js '20.5.0'
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.5.0"
+          cache: "npm"
+      - name: Update npm
+        run: npm install -g npm && npm --version
+      - name: Install packages
+        run: npm install --save-dev typescript @types/react @types/node
+      - name: Linting
+        run: npx next lint
   # test:
   #   name: Test
   #   runs-on: ubuntu-latest
@@ -55,7 +55,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript' ]
+        language: ["javascript"]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
