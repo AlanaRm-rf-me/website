@@ -2,7 +2,7 @@
 
 # Custom 
 .env
-
+.cursorignore
 # dependencies
 /node_modules
 /.pnp
