@@ -3,6 +3,7 @@
 ## Changes Made
 
 1. Updated `.prettierrc` file:
+
    ```json
    {
      "tabWidth": 2,
@@ -12,6 +13,7 @@
    ```
 
 2. Added `.editorconfig` file:
+
    ```ini
    root = true
 
@@ -21,6 +23,7 @@
    ```
 
 3. Updated Git configuration:
+
    ```bash
    git config --global core.autocrlf input
    ```
@@ -40,7 +43,7 @@
        "dev": "NODE_OPTIONS='--inspect' next dev",
        "start": "next start",
        "build": "next build"
-     },
+     }
      // ... rest of the file
    }
    ```
@@ -48,11 +51,13 @@
 ## Troubleshooting Steps
 
 1. Addressed Prettier errors related to line endings:
+
    - Updated `.prettierrc` to use LF line endings.
    - Added `.editorconfig` to enforce LF line endings.
    - Changed Git configuration to handle line endings consistently.
 
 2. Attempted to resolve "Missing script: "build"" error:
+
    - Verified that `package.json` contains the correct `build` script.
    - Suggested clearing npm cache and reinstalling dependencies:
      ```bash
@@ -78,10 +83,12 @@
 ## Next Steps
 
 1. Verify that `package.json` changes are saved and recognized by npm:
+
    - Double-check file contents.
    - Try running `npm run` to list available scripts.
 
 2. Investigate why npm is not recognizing the `build` script:
+
    - Check for any error messages when running `npm install`.
    - Verify Node.js and npm versions match those specified in `package.json`:
      ```json
@@ -92,10 +99,12 @@
      ```
 
 3. Debug the Next.js build process:
+
    - Run `npm run build` and capture the full output.
    - Check for any error messages or warnings during the build process.
 
 4. If issues persist, consider:
+
    - Creating a minimal Next.js project to compare configurations.
    - Updating Next.js and related dependencies to the latest compatible versions.
    - Checking for any conflicting global npm configurations.
