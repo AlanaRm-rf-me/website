@@ -198,7 +198,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #2487ce;
 }
 
@@ -263,11 +263,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #2487ce;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -279,7 +279,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -291,7 +291,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -362,7 +362,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #2487ce;
 }
 
@@ -396,11 +396,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #2487ce;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -413,7 +413,7 @@ h6 {
   position: relative;
 }
 
-#hero .logo {
+#hero .logo{
   width: 400;
   height: "auto";
 }
@@ -604,7 +604,7 @@ section {
   position: relative;
 }
 
-.about .content ul li + li {
+.about .content ul li+li {
   margin-top: 10px;
 }
 
@@ -691,12 +691,13 @@ section {
 .about .content section {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 .about .content .aboutAccContent {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -851,7 +852,7 @@ section {
   text-align: center;
 }
 
-.clients #logo {
+.clients #logo{
   width: auto;
   height: 100;
 }
@@ -1003,6 +1004,7 @@ section {
   position: relative;
 }
 
+
 .resources .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
@@ -1038,7 +1040,7 @@ section {
   fill: #47aeff;
 }
 
-.resources .iconbox-blue:hover .icon i svg path {
+.resources .iconbox-blue:hover .icon i svg path{
   fill: #fff;
 }
 
@@ -1058,7 +1060,7 @@ section {
   fill: #ffa76e;
 }
 
-.resources .iconbox-orange:hover .icon i svg path {
+.resources .iconbox-orange:hover .icon i svg path{
   fill: #fff;
 }
 
@@ -1078,7 +1080,7 @@ section {
   fill: #e80368;
 }
 
-.resources .iconbox-pink:hover .icon i svg path {
+.resources .iconbox-pink:hover .icon i svg path{
   fill: #fff;
 }
 
@@ -1098,7 +1100,7 @@ section {
   fill: #ffbb2c;
 }
 
-.resources .iconbox-yellow:hover .icon i svg path {
+.resources .iconbox-yellow:hover .icon i svg path{
   fill: #fff;
 }
 
@@ -1118,7 +1120,7 @@ section {
   fill: #ff5828;
 }
 
-.resources .iconbox-red:hover .icon i svg path {
+.resources .iconbox-red:hover .icon i svg path{
   fill: #fff;
 }
 
@@ -1138,7 +1140,7 @@ section {
   fill: #11dbcf;
 }
 
-.resources .iconbox-teal:hover .icon i svg path {
+.resources .iconbox-teal:hover .icon i svg path{
   fill: #fff;
 }
 
@@ -1204,7 +1206,7 @@ section {
   text-align: left;
 }
 
-.cta .cta-list li + li {
+.cta .cta-list li+li {
   text-align: left;
 }
 
@@ -1257,12 +1259,12 @@ section {
 .cta .cta-list section {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 .cta .cta-list .accContent {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 .cta .cta-list .icon-help {
   font-size: 24px;
@@ -1311,6 +1313,7 @@ section {
     padding: 0;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1483,10 +1486,7 @@ section {
   position: relative;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1494,10 +1494,7 @@ section {
   border: 1px solid #2487ce;
 }
 
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #2487ce;
 }
 
@@ -1520,7 +1517,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1734,7 +1731,7 @@ section {
   list-style: none;
 }
 
-.faq .faq-list li + li {
+.faq .faq-list li+li {
   margin-top: 15px;
 }
 
@@ -1786,12 +1783,12 @@ section {
 .faq .faq-list section {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 .faq .faq-list .accContent {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 .faq .faq-list .icon-help {
   font-size: 24px;
@@ -1858,7 +1855,7 @@ section {
   position: relative;
 }
 
-.appeal .content ul li + li {
+.appeal .content ul li+li {
   margin-top: 10px;
 }
 
@@ -1945,12 +1942,12 @@ section {
 .appeal .content section {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 .appeal .content .appealAccContent {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 /*--------------------------------------------------------------
 # Contact
@@ -2003,7 +2000,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -2055,7 +2052,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type=submit] {
   background: #2487ce;
   border: 0;
   padding: 10px 30px;
@@ -2064,7 +2061,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #3194db;
 }
 
@@ -2107,11 +2104,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #1a5e90;
@@ -2233,13 +2230,13 @@ section {
   border: 1px solid #cde5f6;
 }
 
-#footer .footer-newsletter form input[type="email"] {
+#footer .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type="submit"] {
+#footer .footer-newsletter form input[type=submit] {
   position: absolute;
   top: -1px;
   right: -2px;
@@ -2255,7 +2252,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type="submit"]:hover {
+#footer .footer-newsletter form input[type=submit]:hover {
   background: #3194db;
 }
 
@@ -2301,6 +2298,7 @@ section {
   height: 100%;
 }
 
+
 /*--------------------------------------------------------------
 # Factsheets Section
 --------------------------------------------------------------*/
@@ -2310,6 +2308,7 @@ section {
   padding-bottom: 0px;
   padding-top: 75px;
 }
+
 
 #factsheets .factsheetsAccWrapper {
   font-family: "Futura", sans-serif;
@@ -2352,12 +2351,12 @@ section {
   text-align: center;
 }
 
-#factsheets section {
+#factsheets section {  
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};
 
 #factsheets .factsheetsAccContent {
   margin-bottom: 0;
   padding: 10px 0 0 0;
-}
+};

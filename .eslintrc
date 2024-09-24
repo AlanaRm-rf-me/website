@@ -14,7 +14,10 @@
     "plugin:prettier/recommended",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint/eslint-plugin", "sonarjs"],
+  "plugins": [
+    "@typescript-eslint/eslint-plugin",
+    "sonarjs"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json",
