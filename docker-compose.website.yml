@@ -1,13 +1,13 @@
-version: "3.9"
+version: '3.9'
 
 name: service
 
 ########################### EXTENSION FIELDS
 # Common environment values
 x-environment: &default-tz-puid-pgid
-  TZ: "America/Chicago"
-  PUID: "1000"
-  PGID: "1000"
+  TZ: 'America/Chicago'
+  PUID: '1000'
+  PGID: '1000'
 
 # Keys common to some of the dependent services/apps
 x-common-keys-apps: &common-keys-apps
