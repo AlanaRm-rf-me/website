@@ -1,6 +1,7 @@
 // Cyborg 5.3.1
 // Bootswatch
 
+
 // Variables
 
 $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" !default;
@@ -39,9 +40,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&di
   @each $color, $value in $theme-colors {
     &-#{$color} {
       @if $enable-gradients {
-        background: $value
-          linear-gradient(180deg, mix($white, $value, 15%), $value)
-          repeat-x;
+        background: $value linear-gradient(180deg, mix($white, $value, 15%), $value) repeat-x;
       } @else {
         background-color: $value;
       }
@@ -112,9 +111,7 @@ legend {
   @each $color, $value in $theme-colors {
     &-#{$color} {
       @if $enable-gradients {
-        background: $value
-          linear-gradient(180deg, mix($white, $value, 15%), $value)
-          repeat-x;
+        background: $value linear-gradient(180deg, mix($white, $value, 15%), $value) repeat-x;
       } @else {
         background-color: $value;
       }
@@ -136,6 +133,7 @@ legend {
 // Containers
 
 .list-group-item-action {
+
   &:hover {
     border-color: $primary;
   }
